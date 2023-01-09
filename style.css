@@ -33,13 +33,13 @@ header{ position: relative;
 	padding: 25px 8%;
 	transition: .3s;
 }
-.logo{
+.logo{  position: relative;
 	color: var(--text-color);
 	font-size: var(--main-font);
 	font-weight: 600;
 	line-height: 0.8;
 }
-#menu-icon{
+#menu-icon{ position: relative;
 	font-size: 38px;
 	color: var(--text-color);
 	z-index: 10001;
