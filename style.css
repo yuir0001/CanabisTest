@@ -19,7 +19,7 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
-header{
+header{ position: relative;
 	width: 100%;
 	top: 0;
 	right: 0;
