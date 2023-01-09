@@ -15,31 +15,31 @@ style.css
 	--main-font: 2.2rem;
 	--p-font: 1.1rem;
 }
-body{   
+body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
-header{ 
+header{
 	width: 100%;
 	top: 0;
 	right: 0;
 	z-index: 1000;
 	position: fixed;
 	background: var(--bg-color);
-	box-shadow: 0px 2px 18px 0 rgb(129 162 182 / 20%);
+	box-shadow: 0px 2px 18px 0 rgba(18, 137, 30, 0.2);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 25px 8%;
 	transition: .3s;
 }
-.logo{  
+.logo{ text-decoration: none;
 	color: var(--text-color);
 	font-size: var(--main-font);
 	font-weight: 600;
 	line-height: 0.8;
 }
-#menu-icon{ 
+#menu-icon{
 	font-size: 38px;
 	color: var(--text-color);
 	z-index: 10001;
@@ -48,7 +48,7 @@ header{
 .navbar{
 	display: flex;
 }
-.navbar a{
+.navbar a{ text-decoration: none;
 	font-size: var(--p-font);
 	color: var(--text-color);
 	font-weight: 600;
@@ -56,7 +56,7 @@ header{
 	margin: 0 10px;
 	transition: all .40s ease;
 }
-.navbar a:hover{
+.navbar a:hover{ text-decoration: none;
 	background: var(--text-color);
 	color: #fff;
 }
@@ -87,7 +87,7 @@ section{
 .box{
 	padding: 0px 20px 10px 20px;
 	background: transparent;
-	box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
+	box-shadow: 5px 30px 56.1276px rgba(9, 75, 19, 0.12);
 	border-radius: 10px;
 	position: relative;
 	transition: all .35s ease;
@@ -124,7 +124,7 @@ section{
 }
 
 .about{
-	background: #f7f6f6;
+	background: #0a4a105c;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -175,7 +175,7 @@ section{
 	width: 460px;
 	max-width: 100%;
 	padding: 12px 15px;
-	background: #515151;
+	background: #57f071;
 	color: var(--bg-color);
 	border: none;
 	outline: none;
@@ -198,7 +198,7 @@ section{
 .last{
 	text-align: center;
 	padding: 17px;
-	background: #757575;
+	background: #48e633;
 }
 .last p{
 	color: var(--text-color);
@@ -221,7 +221,7 @@ section{
 		position: absolute;
 		flex-direction: column;
 		background: var(--bg-color);
-		box-shadow: 0px 2px 18px 0 rgb(129 162 182 / 20%);
+		box-shadow: 0px 2px 18px 0 rgba(16, 112, 37, 0.2);
 		transition: all .40s ease;
 	}
 	.navbar a{
