@@ -15,11 +15,11 @@ style.css
 	--main-font: 2.2rem;
 	--p-font: 1.1rem;
 }
-body{   position: relative;
+body{   
 	background: var(--bg-color);
 	color: var(--text-color);
 }
-header{ position: relative;
+header{ 
 	width: 100%;
 	top: 0;
 	right: 0;
@@ -33,13 +33,13 @@ header{ position: relative;
 	padding: 25px 8%;
 	transition: .3s;
 }
-.logo{  position: relative;
+.logo{  
 	color: var(--text-color);
 	font-size: var(--main-font);
 	font-weight: 600;
 	line-height: 0.8;
 }
-#menu-icon{ position: relative;
+#menu-icon{ 
 	font-size: 38px;
 	color: var(--text-color);
 	z-index: 10001;
